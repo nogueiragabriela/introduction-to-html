@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Página principal</title>
+    </head>
+    <body>
+        <h1 id="inicio">Conceitos Básicos de HTML</h1>
+        <hr />
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#introducao">Introdução ao HTML na prática</a></li>
+            <li><a href="#tags">Introdução a Tags</a></li>
+            <li><a href="#atributos">Atributos das Tags</a></li>
+            <li><a href="#referencias">Referências</a></li>
+
+        </ul>
+        <h2 id="introducao">Introdução ao HTML na prática</h2>
+        <small><a href="#inicio">voltar</a></small>
+        <p>
+            HTML (Hypertext Markup Language) é a linguagem padrão para criação e estruturação de páginas web. Neste tutorial, vamos explorar a estrutura básica do HTML e alguns conceitos fundamentais.
+        </p>
+        <pre style="background-color: #1e2228;">
+            <code style="color: #abb2bf;">
+                &lt;html&gt;
+                    &lt;head&gt;
+                        &lt;title&gt;Meu primeiro HTML&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        Meu primeiro HTML!
+                    &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+        </pre>
+        <p>
+            A estrutura básica do HTML consiste nas tags hmtl, head e body. A tag head contém informações pré-carregadas, enquanto a tag body contém o conteúdo visível ao usuário.
+        </p>
+        <h2 id="tags">Introdução a Tags</h2>
+        <small><a href="#inicio">voltar</a></small>
+        <p>
+            As tags são elementos essenciais no HTML, permitindo a marcação e formatação do conteúdo.
+        </p>
+        <pre style="background-color: #1e2228;">
+            <code style="color: #abb2bf;">
+                &lt;html&gt;
+                    &lt;head&gt;
+                        &lt;title&gt;Meu primeiro HTML&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        &lt;strong&gt;Meu primeiro &lt;i&gt;HTML&lt;/i&gt;!&lt;/strong&gt;
+                        &lt;input type="text" /&gt;
+                    &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+        </pre>
+        <p>
+            Além das tags de formatação, existem tags que não requerem uma tag de fechamento. Algumas, como input type="text"  e img, são auto-fecháveis.
+        </p>
+        <h2 id="atributos">Atributos das Tags</h2>
+        <small><a href="#inicio">voltar</a></small>
+        <p>
+            Atributos fornecem propriedades adicionais às tags, sendo globais ou específicos de cada tag.
+        </p>
+        <pre style="background-color: #1e2228;">
+            <code style="color: #abb2bf;">
+                &lt;strong id="titulo"&gt;Meu primeiro HTML!&lt;/strong&gt;
+                &lt;strong style="color: blue;"&gt;Meu primeiro HTML!&lt;/strong&gt;
+                &lt;strong class="titulo-principal"&gt;Meu primeiro HTML!&lt;/strong&gt;
+            </code>
+        </pre>
+        <p>
+            A tag strong exemplifica atributos como "id" para identificação no JavaScript, "style" para estilos inline e "class" para aplicar estilos CSS padronizados.
+        </p>
+        <pre style="background-color: #1e2228;">
+            <code style="color: #abb2bf;">
+                &lt;input type="text" /&gt;
+                &lt;input type="number" /&gt;
+                &lt;input type="color" /&gt;
+            </code>
+        </pre>
+        <p>
+            A tag input possui atributos específicos, como "type," determinando o tipo de entrada.
+        </p>
+        <pre style="background-color: #1e2228;">
+            <code style="color: #abb2bf;">
+                &lt;img width="250" src="https://observatorio3setor.org.br/wp-content/uploads/2019/09/1-girassol.jpg"/&gt;
+            </code>
+        </pre>
+        <p>
+            A tag <img> também utiliza atributos como "width" e "src" para definir largura e fonte da imagem.
+        </p>
+        <h2 id="referencias">Referências</h2>
+        <small><a href="#inicio">voltar</a></small>
+        <ol>
+            <li><a href="https://www.w3schools.com/html/">HTML Tutorial</a></li>
+            <li><a href="https://www.w3schools.com/html/html_intro.asp">HTML Introduction</a></li>
+            <li><a href="https://www.w3schools.com/tags/">HTML Element Reference</a></li>
+        </ol> 
+    </body>
+</html>
